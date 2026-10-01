@@ -100,6 +100,12 @@ const project = new Project({
         matchPackageNames: ['langri-sha/**'],
         minimumReleaseAge: null,
       },
+      {
+        description:
+          'Widen the supported TypeScript range instead of replacing it',
+        matchPackageNames: ['typescript'],
+        rangeStrategy: 'widen',
+      },
     ],
   },
   typeScriptConfig: {
