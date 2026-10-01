@@ -47,7 +47,7 @@
   "peerDependencies": {
     "typescript": "^5.5.0"
   },
-  "packageManager": "pnpm@12.7.0",
+  "packageManager": "pnpm@12.8.1",
   "devEngines": {
     "runtime": {
       "name": "node",
