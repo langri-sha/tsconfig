@@ -3,7 +3,6 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "${configDir}",
     "checkJs": true,
     "esModuleInterop": true,
     "experimentalDecorators": false,
