@@ -1,13 +1,19 @@
 {
   "name": "@langri-sha/tsconfig",
   "version": "1.0.1",
+  "description": "A set of TypeScript configuration files, focused on type-checking all your TypeScript and JavaScript modules",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "typescript-config"
+  ],
+  "homepage": "https://github.com/langri-sha/tsconfig#readme",
   "bugs": {
-    "url": "https://github.com/langri-sha/projen/issues"
+    "url": "https://github.com/langri-sha/tsconfig/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/langri-sha/projen.git",
-    "directory": "packages/tsconfig"
+    "url": "git+https://github.com/langri-sha/tsconfig.git"
   },
   "license": "MIT",
   "author": {
@@ -16,10 +22,37 @@
     "url": "https://langri-sha.com",
     "organization": false
   },
+  "type": "module",
   "main": "base.json",
-  "scripts": {},
+  "scripts": {
+    "change": "pnpm exec projen change",
+    "default": "pnpm exec projen default",
+    "prepare": "husky",
+    "renovate": "pnpm exec projen renovate"
+  },
+  "devDependencies": {
+    "@langri-sha/eslint-config": "0.9.17",
+    "@langri-sha/lint-staged": "0.9.8",
+    "@langri-sha/prettier": "0.4.9",
+    "@langri-sha/projen-project": "0.31.2",
+    "beachball": "2.66.0",
+    "eslint": "10.11.0",
+    "husky": "9.1.7",
+    "lint-staged": "17.6.0",
+    "prettier": "3.9.9",
+    "projen": "0.86.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
   "peerDependencies": {
     "typescript": "^5.5.0"
+  },
+  "packageManager": "pnpm@12.7.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">= 24.16.0"
+    }
   },
   "publishConfig": {
     "access": "public"
