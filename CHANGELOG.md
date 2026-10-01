@@ -1,8 +1,17 @@
 # Change Log - @langri-sha/tsconfig
 
-<!-- This log was last generated on Mon, 27 Jul 2026 11:38:48 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 01 Oct 2026 20:50:07 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 1.0.2
+
+Thu, 01 Oct 2026 20:50:07 GMT
+
+### Patches
+
+- Publish from langri-sha/tsconfig, which now owns this package and its history (filip.dupanovic@gmail.com)
+- Declare the package as an ES module (filip.dupanovic@gmail.com)
 
 ## 1.0.1
 

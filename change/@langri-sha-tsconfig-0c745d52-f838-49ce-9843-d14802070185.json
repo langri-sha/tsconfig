@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Declare the package as an ES module",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "patch"
-}

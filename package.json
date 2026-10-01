@@ -1,6 +1,6 @@
 {
   "name": "@langri-sha/tsconfig",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of TypeScript configuration files, focused on type-checking all your TypeScript and JavaScript modules",
   "keywords": [
     "tsconfig",
