@@ -45,7 +45,7 @@
     "typescript": "5.9.3"
   },
   "peerDependencies": {
-    "typescript": "^5.5.0"
+    "typescript": "^5.5.0 || ^6.0.0 || ^7.0.0"
   },
   "packageManager": "pnpm@12.8.1",
   "devEngines": {

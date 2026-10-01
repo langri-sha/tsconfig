@@ -29,7 +29,7 @@ const project = new Project({
       '@langri-sha/prettier@0.4.9',
       '@langri-sha/projen-project@*',
     ],
-    peerDeps: ['typescript@^5.5.0'],
+    peerDeps: ['typescript@^5.5.0 || ^6.0.0 || ^7.0.0'],
   },
   beachball: {
     config: {
