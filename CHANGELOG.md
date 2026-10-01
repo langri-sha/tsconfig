@@ -1,8 +1,20 @@
 # Change Log - @langri-sha/tsconfig
 
-<!-- This log was last generated on Thu, 01 Oct 2026 20:50:07 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 01 Oct 2026 22:36:20 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 1.1.0
+
+Thu, 01 Oct 2026 22:36:20 GMT
+
+### Minor changes
+
+- Support TypeScript 5, 6 and 7
+
+### Patches
+
+- fix(deps): update dependency pnpm to v12.8.1
 
 ## 1.0.2
 
