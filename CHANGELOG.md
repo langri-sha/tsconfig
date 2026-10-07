@@ -1,8 +1,20 @@
 # Change Log - @langri-sha/tsconfig
 
-<!-- This log was last generated on Thu, 01 Oct 2026 22:36:20 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 07 Oct 2026 10:15:47 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 1.1.1
+
+Wed, 07 Oct 2026 10:15:47 GMT
+
+### Patches
+
+- fix(deps): update dependency pnpm to v12.8.2
+- chore(deps): update langri-sha projen toolchain
+- fix(deps): update dependency pnpm to v12.9.1
+- fix(deps): update dependency pnpm to v12.9.0
+- chore(deps): update dependency @langri-sha/projen-project to v0.32.0
 
 ## 1.1.0
 
