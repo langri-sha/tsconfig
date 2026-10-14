@@ -8,15 +8,12 @@ and ships JSON only.
 
 ## Who owns which file
 
-| Owner                                   | Files                                                                                                                                                                                                                                           |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Projen (`.projenrc.ts` → `pnpm projen`) | `package.json`, `.projen/`, `tsconfig.json`, `.editorconfig`, `pnpm-workspace.yaml`, `renovate.json5`, `beachball.config.cjs`, the ESLint, Prettier and lint-staged configs, `.husky/`, the ignore and attribute files, `CODEOWNERS`, `license` |
-| Beachball                               | `CHANGELOG.md`, `CHANGELOG.json` and the `version` field                                                                                                                                                                                        |
-| You                                     | `base.json`, `build.json`, `project.json`, `react.json`, `emotion.json`, `src/**`, `readme.md`, `.github/workflows/`, this file                                                                                                                 |
-
-Synthesized files are read-only; change them in `.projenrc.ts`. Repository
-settings, branch protection and the Actions secrets are managed by
-`langri-sha/github-repos`.
+Projen writes `package.json` and every file listed in `.projen/files.json`; they
+are read-only. Change them in `.projenrc.ts`, then run `pnpm exec projen`.
+Beachball owns `CHANGELOG.md`, `CHANGELOG.json` and the `version` field.
+Everything else — the JSON configurations, `src/`, `readme.md`,
+`.github/workflows/`, this file — is edited by hand. Repository settings, branch
+protection and the Actions secrets are managed by `langri-sha/github-repos`.
 
 ## Common tasks
 
