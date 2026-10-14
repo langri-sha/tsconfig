@@ -56,10 +56,16 @@ The monorepo's root `tsconfig.json` extends the base and lists each package as a
 
 - [`@moonrepo/tsconfig`]
 
+## Contributing
+
+See [CONTRIBUTING.md] in `langri-sha/github`.
+
 [`@moonrepo/tsconfig`]:
   https://github.com/moonrepo/dev/tree/master/packages/tsconfig
 [composite projects]:
   https://www.typescriptlang.org/docs/handbook/project-references.html
+[contributing.md]:
+  https://github.com/langri-sha/github/blob/main/CONTRIBUTING.md
 [emotion]: https://emotion.sh/docs/typescript
 [react]: https://react.dev/learn/installation
 [typescript]: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
