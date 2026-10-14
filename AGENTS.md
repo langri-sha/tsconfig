@@ -58,10 +58,8 @@ TypeScript resolves a bare `"extends": "@langri-sha/tsconfig"` through the
 `tsconfig` field, never `main`, and subpaths such as
 `@langri-sha/tsconfig/project` resolve to the files themselves. `tsconfig*.json`
 is npm-ignored, so this repository's own configuration never ships. So is
-`dist/`, where `tsc --build` leaves its build info even without emitting;
-releases from `langri-sha/projen` shipped that file and a stub declaration by
-accident. `src/index.ts` is an empty module, kept because earlier releases
-shipped it too.
+`dist/`, where `tsc --build` leaves its build info even without emitting.
+`src/index.ts` is an empty module.
 
 The package is declared an ES module so the synthesized configs keep the fleet's
 file names; it ships no JavaScript, so consumers see no difference.
@@ -69,13 +67,3 @@ file names; it ships no JavaScript, so consumers see no difference.
 There is deliberately no `engines` field. Published from the root, it would bind
 consumers to the Node.js release this repository is developed on, so that lives
 in `devEngines`, where `actions/setup-node` reads it.
-
-## Provenance
-
-Extracted from `langri-sha/projen` at `6417104d` on 2026-10-01 with
-`git filter-repo --subdirectory-filter packages/tsconfig`. All 53 commits that
-touched the package keep their trees, authorship, dates and messages. The
-history reaches back to 2024-04-11, when the package started in
-`langri-sha/langri-sha.com`, which handed it to projen on 2026-07-20. Issue and
-pull request numbers in those older messages refer to the two source
-repositories.
