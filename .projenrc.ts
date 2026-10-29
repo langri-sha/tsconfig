@@ -23,12 +23,7 @@ const project = new Project({
     repository: 'git+https://github.com/langri-sha/tsconfig.git',
     type: 'module',
 
-    devDeps: [
-      '@langri-sha/eslint-config@0.10.0',
-      '@langri-sha/lint-staged@0.9.11',
-      '@langri-sha/prettier@0.4.11',
-      '@langri-sha/projen-project@*',
-    ],
+    devDeps: ['@langri-sha/projen-project@*'],
     peerDeps: ['typescript@^5.5.0 || ^6.0.0 || ^7.0.0'],
   },
   beachball: {
