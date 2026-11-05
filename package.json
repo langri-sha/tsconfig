@@ -37,16 +37,16 @@
     "@langri-sha/eslint-config": "0.12.0",
     "@langri-sha/lint-staged": "0.9.11",
     "@langri-sha/prettier": "0.4.11",
-    "@langri-sha/projen-project": "0.49.2",
+    "@langri-sha/projen-project": "0.50.0",
     "beachball": "2.66.0",
     "eslint": "10.14.0",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
     "prettier": "3.9.9",
     "projen": "0.104.1",
-    "skills": "1.7.4",
+    "skills": "1.7.5",
     "tsx": "4.23.15",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3"
   },
   "peerDependencies": {
     "typescript": "^5.5.0 || ^6.0.0 || ^7.0.0"
