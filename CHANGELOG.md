@@ -1,8 +1,56 @@
 # Change Log - @langri-sha/tsconfig
 
-<!-- This log was last generated on Wed, 07 Oct 2026 10:15:47 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 05 Nov 2026 22:18:17 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 2.0.0
+
+Thu, 05 Nov 2026 22:18:17 GMT
+
+### Major changes
+
+- Set rootDir to src in the build config. A build that compiles files outside src sets its own rootDir. (filip.dupanovic@gmail.com)
+
+### Minor changes
+
+- Require Node.js 24.22.1, which fixes CVE-2026-111497 (filip.dupanovic@gmail.com)
+
+### Patches
+
+- fix(deps): update dependency pnpm to v12.11.2
+- fix(deps): update dependency pnpm to v12.10.0
+- Update dependency pnpm to v12.16.0
+- Update dependency @langri-sha/projen-project to v0.44.1
+- Update dependency @langri-sha/projen-project to v0.49.1
+- fix(deps): update dependency pnpm to v12.10.1
+- fix(deps): update dependency pnpm to v12.11.0
+- Update dependency @langri-sha/projen-project to v0.42.3
+- Update dependency @langri-sha/projen-project to v0.48.3
+- Update dependency pnpm to v12.14.0
+- Update dependency @langri-sha/projen-project to v0.42.1
+- Update dependency @langri-sha/projen-project to v0.48.2
+- chore(deps): update langri-sha projen toolchain
+- Update dependency @langri-sha/projen-project to v0.46.0
+- Update @langri-sha/projen-project to 0.37.0 (filip.dupanovic@gmail.com)
+- Update dependency @langri-sha/projen-project to v0.44.1
+- chore(deps): update dependency @langri-sha/projen-project to v0.36.0
+- Update langri-sha/skills digest to c0cb19c
+- Update dependency @langri-sha/projen-project to v0.48.1
+- chore(deps): update dependency @langri-sha/projen-project to v0.33.0
+- Update dependency pnpm to v12.16.1
+- Update dependency @langri-sha/projen-project to v0.39.0
+- Update dependency @langri-sha/projen-project to v0.47.0
+- chore(deps): update langri-sha projen toolchain
+- Update dependency @langri-sha/projen-project to v0.42.0
+- Update dependency pnpm to v12.15.0
+- Update dependency pnpm to v12.13.0
+- Update dependency langri-sha/skills to v1.1.0
+- Update dependency @langri-sha/projen-project to v0.43.0
+- chore(deps): update langri-sha projen toolchain
+- Update dependency @langri-sha/projen-project to v0.40.0
+- Update dependency @langri-sha/projen-project to v0.42.4
+- fix(deps): update dependency pnpm to v12.11.1
 
 ## 1.1.1
 

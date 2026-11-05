@@ -1,7 +1,0 @@
-{
-  "type": "major",
-  "comment": "Set rootDir to src in the build config. A build that compiles files outside src sets its own rootDir.",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "patch"
-}

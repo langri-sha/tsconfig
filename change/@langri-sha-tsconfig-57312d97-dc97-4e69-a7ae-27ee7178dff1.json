@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Update @langri-sha/projen-project to 0.37.0",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "patch"
-}

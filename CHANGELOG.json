@@ -2,6 +2,285 @@
   "name": "@langri-sha/tsconfig",
   "entries": [
     {
+      "date": "Thu, 05 Nov 2026 22:18:17 GMT",
+      "version": "2.0.0",
+      "tag": "@langri-sha/tsconfig_v2.0.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "fix(deps): update dependency pnpm to v12.11.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "fix(deps): update dependency pnpm to v12.10.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency pnpm to v12.16.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.44.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.49.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "fix(deps): update dependency pnpm to v12.10.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "fix(deps): update dependency pnpm to v12.11.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.42.3"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.48.3"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency pnpm to v12.14.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.42.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.48.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.46.0"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update @langri-sha/projen-project to 0.37.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.44.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.36.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update langri-sha/skills digest to c0cb19c"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.48.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.33.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency pnpm to v12.16.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.39.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.47.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.42.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency pnpm to v12.15.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency pnpm to v12.13.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency langri-sha/skills to v1.1.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.43.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.40.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Update dependency @langri-sha/projen-project to v0.42.4"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "fix(deps): update dependency pnpm to v12.11.1"
+          }
+        ],
+        "none": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Stop Claude Code adding attribution to commits and pull requests"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Simplify the README"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Declare the create-commit and create-pr skills"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Commit the create-commit and create-pr skills"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Link the contributing guide from the readme"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Opt into the default Worktrunk hooks"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Pin skills to v1.0.0"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Keep the Dagger files out of the package"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Let the preset supply the config packages"
+          }
+        ],
+        "minor": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Require Node.js 24.22.1, which fixes CVE-2026-111497"
+          }
+        ],
+        "major": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "730ce5be98c9492cdaad2db776dc07e71dbf7ff4",
+            "comment": "Set rootDir to src in the build config. A build that compiles files outside src sets its own rootDir."
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 07 Oct 2026 10:15:47 GMT",
       "version": "1.1.1",
       "tag": "@langri-sha/tsconfig_v1.1.1",
