@@ -1,0 +1,7 @@
+{
+  "type": "major",
+  "comment": "Turn on noImplicitReturns: a function that returns a value on some code paths must return on all of them",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
