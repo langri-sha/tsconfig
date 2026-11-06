@@ -1,0 +1,7 @@
+{
+  "type": "major",
+  "comment": "Turn on verbatimModuleSyntax in place of isolatedModules, which it implies. Imports of types need the type keyword, and an import whose every named binding is an inline type still leaves a runtime import of the module",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
