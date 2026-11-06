@@ -1,0 +1,7 @@
+{
+  "type": "major",
+  "comment": "Turn on erasableSyntaxOnly: enums, namespaces with values, parameter properties and angle-bracket type assertions no longer compile; a package can override the option",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
