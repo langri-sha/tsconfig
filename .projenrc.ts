@@ -47,6 +47,7 @@ const project = new Project({
         'dagger.lock',
         'dagger.toml',
         'eslint.config.js',
+        'fixtures/**',
         'lint-staged.config.js',
         'pnpm-lock.yaml',
         'pnpm-workspace.yaml',
@@ -85,6 +86,7 @@ const project = new Project({
       '/change/',
       '/dagger.lock',
       '/dagger.toml',
+      '/fixtures/',
       // Nothing here is built; `tsc --build` only leaves its build info behind.
       '/dist/',
     ],

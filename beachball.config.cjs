@@ -19,6 +19,7 @@ module.exports = {
     'dagger.lock',
     'dagger.toml',
     'eslint.config.js',
+    'fixtures/**',
     'lint-staged.config.js',
     'pnpm-lock.yaml',
     'pnpm-workspace.yaml',
