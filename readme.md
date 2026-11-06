@@ -53,6 +53,22 @@ The monorepo's root `tsconfig.json` extends the base and lists each package as a
 }
 ```
 
+## Strictness and module options
+
+TypeScript 6 or 7 is required. On top of their defaults, which include `strict`,
+the base sets, among others:
+
+- `verbatimModuleSyntax`: import types with a `type` modifier. An import whose
+  every named binding is an inline `type`, as in
+  `import { type Name } from 'module'`, still leaves `import {} from 'module'`
+  in the output; `import type { Name } from 'module'` drops it.
+- `erasableSyntaxOnly`: no enums, namespaces with values, parameter properties
+  or angle-bracket type assertions. Set it to `false` in a package that needs
+  them.
+- `noImplicitReturns` and `moduleDetection: "force"`.
+- `lib: ["ES2025"]`, which doesn't declare APIs Node 24 lacks, such as
+  `Temporal`.
+
 ## Emitting
 
 The base only type-checks. It doesn't set `rootDir`, which TypeScript 6 no
