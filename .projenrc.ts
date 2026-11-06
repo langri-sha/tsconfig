@@ -29,7 +29,7 @@ const project = new Project({
       '@types/react@19.3.0',
       'react@19.3.1',
     ],
-    peerDeps: ['typescript@^5.5.0 || ^6.0.0 || ^7.0.0'],
+    peerDeps: ['typescript@^6.0.0 || ^7.0.0'],
   },
   beachball: {
     config: {
