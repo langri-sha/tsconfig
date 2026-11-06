@@ -22,8 +22,9 @@ Then extend the base configuration:
 
 To combine configurations, list them in this order — later entries win:
 
-1. A base: `@langri-sha/tsconfig`, or `@langri-sha/tsconfig/project.json` for a
-   package inside a monorepo.
+1. A base: `@langri-sha/tsconfig`, `@langri-sha/tsconfig/project.json` for a
+   package inside a monorepo, or `@langri-sha/tsconfig/build.json` for a library
+   that emits, React or Emotion ones included.
 2. `@langri-sha/tsconfig/react.json` for React.
 3. `@langri-sha/tsconfig/emotion.json` for Emotion, which also needs
    `react.json`.
@@ -49,6 +50,22 @@ The monorepo's root `tsconfig.json` extends the base and lists each package as a
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@langri-sha/tsconfig",
   "references": [{ "path": "./packages/app" }]
+}
+```
+
+## Emitting
+
+The base only type-checks. It doesn't set `rootDir`, which TypeScript 6 no
+longer infers, so a project that emits through it fails with TS5011 when its
+sources sit in a subdirectory such as `src`. A project that emits JavaScript or
+declarations extends `@langri-sha/tsconfig/build.json` instead, which sets
+`rootDir` to `src`:
+
+```json
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@langri-sha/tsconfig/build.json",
+  "include": ["src"]
 }
 ```
 
