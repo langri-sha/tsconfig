@@ -1,0 +1,7 @@
+{
+  "type": "major",
+  "comment": "Turn on moduleDetection force: every file is a module, so a file without imports or exports no longer shares its top-level scope with others. It also changes emit: such a file gets export {} and loses its use strict directive, and its unused top-level locals now raise TS6133. Outputs loaded as classic scripts need moduleDetection auto",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
