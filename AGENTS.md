@@ -21,7 +21,8 @@ repository; don't change them in the GitHub UI.
 ```sh
 pnpm install
 pnpm exec projen                        # re-synthesize from .projenrc.ts
-pnpm tsc --build .                      # typecheck
+# typecheck, fixtures included
+pnpm tsc --build . fixtures/base fixtures/build fixtures/emotion fixtures/project fixtures/react
 pnpm eslint . && pnpm prettier --check .
 pnpm change                             # write a change file
 ```
@@ -37,6 +38,21 @@ same checks locally. Beachball's needs `.merge-base/` first, which
 langri-sha/github's
 [merge-base script](https://github.com/langri-sha/github/tree/main/actions/merge-base#locally)
 writes.
+
+## Fixtures
+
+`fixtures/<name>/` holds a small consumer of each shipped configuration —
+`base`, `build`, `project`, `react` and `emotion` — extending the file in this
+repository and exercising what it is for. CI checks them: `dagger.toml` lists
+them under the `typescript` module's `projects`, so `dagger check` builds them
+next to the root. Locally, that is the type-check command under Common tasks.
+
+They are deliberately not project references of the root. A referenced project
+must be composite, and composite defaults `rootDir` to the configuration's
+directory, which hides the TypeScript 6 failure when `build.json` loses its own
+`rootDir`. A new shipped configuration needs a fixture and an entry in
+`dagger.toml`. Fixtures are npm-ignored and listed in beachball's
+`ignorePatterns`, so they never reach the tarball or demand a change file.
 
 ## Type-checking with the working tree
 

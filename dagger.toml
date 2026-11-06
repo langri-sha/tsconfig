@@ -30,5 +30,15 @@ source = "github.com/langri-sha/dagger/projen@v2.1.0"
 [modules.typescript]
 source = "github.com/langri-sha/dagger/typescript@v2.1.0"
 
+[modules.typescript.settings]
+projects = [
+  ".",
+  "fixtures/base",
+  "fixtures/build",
+  "fixtures/emotion",
+  "fixtures/project",
+  "fixtures/react",
+]
+
 [modules.beachball]
 source = "github.com/langri-sha/dagger/beachball@v2.1.0"
