@@ -2,11 +2,7 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "allowJs": true,
-    "allowSyntheticDefaultImports": true,
     "checkJs": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": false,
-    "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "lib": ["ESNext"],
     "module": "ESNext",
@@ -20,10 +16,8 @@
       "got": ["${configDir}/node_modules/got/dist/source"]
     },
     "pretty": true,
-    "removeComments": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
     "target": "ES2021"
   }
 }

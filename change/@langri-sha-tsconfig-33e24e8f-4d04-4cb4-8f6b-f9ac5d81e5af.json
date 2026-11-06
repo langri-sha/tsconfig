@@ -1,0 +1,7 @@
+{
+  "type": "major",
+  "comment": "Drop the options TypeScript 6 sets to the same values by default: allowSyntheticDefaultImports, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames, removeComments and strict. A config listed before this one in an extends array no longer has its strict, experimentalDecorators or removeComments overridden",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
