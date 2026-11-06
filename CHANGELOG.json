@@ -2,6 +2,97 @@
   "name": "@langri-sha/tsconfig",
   "entries": [
     {
+      "date": "Fri, 06 Nov 2026 22:09:19 GMT",
+      "version": "3.0.0",
+      "tag": "@langri-sha/tsconfig_v3.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Turn on moduleDetection force: every file is a module, so a file without imports or exports no longer shares its top-level scope with others. It also changes emit: such a file gets export {} and loses its use strict directive, and its unused top-level locals now raise TS6133. Outputs loaded as classic scripts need moduleDetection auto"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Drop the options TypeScript 6 sets to the same values by default: allowSyntheticDefaultImports, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames, removeComments and strict. A config listed before this one in an extends array no longer has its strict, experimentalDecorators or removeComments overridden"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Turn on verbatimModuleSyntax in place of isolatedModules, which it implies. Imports of types need the type keyword, and an import whose every named binding is an inline type still leaves a runtime import of the module"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Type the ES2025 library instead of ESNext, so APIs Node 24 lacks, such as Temporal, no longer type-check. react.json takes DOM and ES2025; DOM.Iterable is part of DOM on TypeScript 6"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Turn on erasableSyntaxOnly: enums, namespaces with values, parameter properties and angle-bracket type assertions no longer compile; a package can override the option"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Require TypeScript 6 or 7: the peer dependency is now ^6.0.0 || ^7.0.0"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Turn on noImplicitReturns: a function that returns a value on some code paths must return on all of them"
+          }
+        ],
+        "none": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Describe what the base enforces in the readme"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Document that the base does not emit"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Upgrade to TypeScript 6"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Add React and Emotion as development dependencies for the config fixtures"
+          }
+        ],
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Update dependency @langri-sha/projen-project to v0.49.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/tsconfig",
+            "commit": "e36d4ebedae1aa18ff60d4823380cd502890c68c",
+            "comment": "Update dependency pnpm to v12.17.0"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 05 Nov 2026 22:18:17 GMT",
       "version": "2.0.0",
       "tag": "@langri-sha/tsconfig_v2.0.0",

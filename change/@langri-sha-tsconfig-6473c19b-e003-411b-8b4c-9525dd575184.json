@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Document that the base does not emit",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "none"
-}

@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Add React and Emotion as development dependencies for the config fixtures",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "none"
-}

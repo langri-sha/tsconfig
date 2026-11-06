@@ -1,7 +1,0 @@
-{
-  "type": "major",
-  "comment": "Require TypeScript 6 or 7: the peer dependency is now ^6.0.0 || ^7.0.0",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "patch"
-}

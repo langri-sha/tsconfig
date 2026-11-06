@@ -1,7 +1,0 @@
-{
-  "type": "major",
-  "comment": "Type the ES2025 library instead of ESNext, so APIs Node 24 lacks, such as Temporal, no longer type-check. react.json takes DOM and ES2025; DOM.Iterable is part of DOM on TypeScript 6",
-  "packageName": "@langri-sha/tsconfig",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "patch"
-}

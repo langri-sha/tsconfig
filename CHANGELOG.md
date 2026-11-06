@@ -1,8 +1,27 @@
 # Change Log - @langri-sha/tsconfig
 
-<!-- This log was last generated on Thu, 05 Nov 2026 22:18:17 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 06 Nov 2026 22:09:19 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.0.0
+
+Fri, 06 Nov 2026 22:09:19 GMT
+
+### Major changes
+
+- Turn on moduleDetection force: every file is a module, so a file without imports or exports no longer shares its top-level scope with others. It also changes emit: such a file gets export {} and loses its use strict directive, and its unused top-level locals now raise TS6133. Outputs loaded as classic scripts need moduleDetection auto (filip.dupanovic@gmail.com)
+- Drop the options TypeScript 6 sets to the same values by default: allowSyntheticDefaultImports, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames, removeComments and strict. A config listed before this one in an extends array no longer has its strict, experimentalDecorators or removeComments overridden (filip.dupanovic@gmail.com)
+- Turn on verbatimModuleSyntax in place of isolatedModules, which it implies. Imports of types need the type keyword, and an import whose every named binding is an inline type still leaves a runtime import of the module (filip.dupanovic@gmail.com)
+- Type the ES2025 library instead of ESNext, so APIs Node 24 lacks, such as Temporal, no longer type-check. react.json takes DOM and ES2025; DOM.Iterable is part of DOM on TypeScript 6 (filip.dupanovic@gmail.com)
+- Turn on erasableSyntaxOnly: enums, namespaces with values, parameter properties and angle-bracket type assertions no longer compile; a package can override the option (filip.dupanovic@gmail.com)
+- Require TypeScript 6 or 7: the peer dependency is now ^6.0.0 || ^7.0.0 (filip.dupanovic@gmail.com)
+- Turn on noImplicitReturns: a function that returns a value on some code paths must return on all of them (filip.dupanovic@gmail.com)
+
+### Patches
+
+- Update dependency @langri-sha/projen-project to v0.49.2
+- Update dependency pnpm to v12.17.0
 
 ## 2.0.0
 
