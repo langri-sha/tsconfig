@@ -11,4 +11,5 @@ __snapshots__/
 /change/
 /dagger.lock
 /dagger.toml
+/fixtures/
 /dist/
