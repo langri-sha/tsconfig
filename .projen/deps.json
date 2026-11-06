@@ -1,6 +1,11 @@
 {
   "dependencies": [
     {
+      "name": "@emotion/react",
+      "version": "11.14.0",
+      "type": "build"
+    },
+    {
       "name": "@langri-sha/eslint-config",
       "version": "0.12.0",
       "type": "build"
@@ -18,6 +23,11 @@
     {
       "name": "@langri-sha/projen-project",
       "version": "*",
+      "type": "build"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
       "type": "build"
     },
     {
@@ -48,6 +58,11 @@
     {
       "name": "projen",
       "version": "0.104.1",
+      "type": "build"
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
       "type": "build"
     },
     {
