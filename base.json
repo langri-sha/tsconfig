@@ -9,6 +9,7 @@
     "moduleResolution": "Bundler",
     "noEmitOnError": true,
     "noImplicitOverride": true,
+    "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "outDir": "${configDir}/dist",
