@@ -6,6 +6,7 @@
     "erasableSyntaxOnly": true,
     "lib": ["ES2025"],
     "module": "ESNext",
+    "moduleDetection": "force",
     "moduleResolution": "Bundler",
     "noEmitOnError": true,
     "noImplicitOverride": true,
