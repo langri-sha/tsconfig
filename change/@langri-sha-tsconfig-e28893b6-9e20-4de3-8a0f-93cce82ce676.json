@@ -1,0 +1,7 @@
+{
+  "type": "none",
+  "comment": "Note that CommonJS sources need automatic module detection",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "none"
+}
