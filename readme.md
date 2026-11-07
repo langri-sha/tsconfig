@@ -65,7 +65,14 @@ the base sets, among others:
 - `erasableSyntaxOnly`: no enums, namespaces with values, parameter properties
   or angle-bracket type assertions. Set it to `false` in a package that needs
   them.
-- `noImplicitReturns` and `moduleDetection: "force"`.
+- `noImplicitReturns`.
+- `moduleDetection: "force"`, so every file is a module. tsc then appends
+  `export {};` to a file without imports or exports and drops its
+  `"use strict"`. A package of CommonJS sources (`module.exports`, `require`)
+  that tsc compiles and that has no `"type": "module"` needs
+  `moduleDetection: "auto"` in its build config. Otherwise Node loads the output
+  as ESM and `require()` returns `{}`. Outputs loaded as classic scripts need
+  `"auto"` too.
 - `lib: ["ES2025"]`, which doesn't declare APIs Node 24 lacks, such as
   `Temporal`.
 
