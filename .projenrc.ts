@@ -106,6 +106,9 @@ const project = new Project({
         beachball: {
           source: 'github.com/langri-sha/dagger/beachball@v2.4.1',
         },
+        actionlint: {
+          source: 'github.com/langri-sha/dagger/actionlint@v2.4.1',
+        },
       },
     },
   },
