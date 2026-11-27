@@ -65,7 +65,50 @@ const project = new Project({
   codeowners: {
     '*': '@langri-sha',
   },
-  dagger: {},
+  dagger: {
+    workspace: {
+      ignore: ['**/node_modules', '**/dist', '**/*.tsbuildinfo'],
+      modules: {
+        eslint: {
+          source: 'dagger.io/js/eslint',
+          settings: {
+            packageManager: 'pnpm',
+            baseImageAddress: 'node:24-slim',
+          },
+        },
+        prettier: {
+          source: 'dagger.io/js/prettier',
+          settings: {
+            packageManager: 'pnpm',
+            baseImageAddress: 'node:24-slim',
+          },
+        },
+        ci: {
+          source: 'github.com/langri-sha/dagger/ci@v2.4.1',
+          generate: { skip: ['projen'] },
+        },
+        projen: {
+          source: 'github.com/langri-sha/dagger/projen@v2.4.1',
+        },
+        typescript: {
+          source: 'github.com/langri-sha/dagger/typescript@v2.4.1',
+          settings: {
+            projects: [
+              '.',
+              'fixtures/base',
+              'fixtures/build',
+              'fixtures/emotion',
+              'fixtures/project',
+              'fixtures/react',
+            ],
+          },
+        },
+        beachball: {
+          source: 'github.com/langri-sha/dagger/beachball@v2.4.1',
+        },
+      },
+    },
+  },
   editorConfig: {},
   eslint: {},
   githubTemplates: {},
