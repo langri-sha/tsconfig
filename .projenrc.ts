@@ -26,7 +26,7 @@ const project = new Project({
     devDeps: [
       '@emotion/react@11.14.0',
       '@langri-sha/projen-project@*',
-      '@types/react@19.3.0',
+      '@types/react@19.3.1',
       'react@19.3.1',
     ],
     peerDeps: ['typescript@^6.0.0 || ^7.0.0'],
