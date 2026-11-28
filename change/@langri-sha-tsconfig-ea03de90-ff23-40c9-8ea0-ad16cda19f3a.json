@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Update dependency @types/react to v19.3.3",
+  "packageName": "@langri-sha/tsconfig",
+  "email": "email not defined",
+  "dependentChangeType": "patch"
+}
