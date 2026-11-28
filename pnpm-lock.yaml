@@ -187,7 +187,7 @@ importers:
     devDependencies:
       '@emotion/react':
         specifier: 11.14.0
-        version: 11.14.0(@types/react@19.3.2)(react@19.3.1)
+        version: 11.14.0(@types/react@19.3.3)(react@19.3.1)
       '@langri-sha/eslint-config':
         specifier: 0.13.0
         version: 0.13.0(@typescript-eslint/utils@8.72.1(eslint@10.15.0)(typescript@6.0.3))(eslint@10.15.0)(prettier@3.9.9)(typescript@6.0.3)
@@ -201,8 +201,8 @@ importers:
         specifier: 0.55.0
         version: 0.55.0(@langri-sha/eslint-config@0.13.0(@typescript-eslint/utils@8.72.1(eslint@10.15.0)(typescript@6.0.3))(eslint@10.15.0)(prettier@3.9.9)(typescript@6.0.3))(@langri-sha/lint-staged@0.9.11(eslint@10.15.0)(lint-staged@17.6.2)(prettier@3.9.9))(@langri-sha/prettier@0.4.11(prettier@3.9.9))(beachball@2.66.0(typescript@6.0.3))(constructs@10.8.1)(eslint@10.15.0)(husky@9.1.7)(lint-staged@17.6.2)(prettier@3.9.9)(projen@0.104.1(constructs@10.8.1))(skills@1.9.0)(tsx@4.23.15)(typescript@6.0.3)
       '@types/react':
-        specifier: 19.3.2
-        version: 19.3.2
+        specifier: 19.3.3
+        version: 19.3.3
       beachball:
         specifier: 2.66.0
         version: 2.66.0(typescript@6.0.3)
@@ -778,8 +778,8 @@ packages:
   '@types/parse-path@7.0.3':
     resolution: {integrity: sha512-LriObC2+KYZD3FzCrgWGv/qufdUy4eXrxcLgQMfYXgPbLIecKIsVBaQgUPmxSSLcjmYbDTQbMgr6qr6l/eb7Bg==}
 
-  '@types/react@19.3.2':
-    resolution: {integrity: sha512-0QJbb58RxWJL3VAa5tvk7QhJamz0S+MpFL2xDuF/+THRR+kldyhPjRZ1iwvK45AEHZ1BVGS3otPsl7QlNVRizQ==}
+  '@types/react@19.3.3':
+    resolution: {integrity: sha512-K8uWpJc4teiuOPdiP1umjeA9rGMgVPiXuoL66fcS1QlwBT1WMqY8PORmub9FadopIs+RCW6siYEs7Lpq+vDlog==}
 
   '@typescript-eslint/eslint-plugin@8.72.1':
     resolution: {integrity: sha512-5CokTWXpmbylfFabsbvHC0CAw3XLaGnoa+nFJX5FR592h/LoZsENUE6p/rg5xvkKrFEXz6pYmgI29AgXc2N3BQ==}
@@ -2761,7 +2761,7 @@ snapshots:
 
   '@emotion/memoize@0.9.0': {}
 
-  '@emotion/react@11.14.0(@types/react@19.3.2)(react@19.3.1)':
+  '@emotion/react@11.14.0(@types/react@19.3.3)(react@19.3.1)':
     dependencies:
       '@babel/runtime': 7.29.13
       '@emotion/babel-plugin': 11.13.5
@@ -2773,7 +2773,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 19.3.1
     optionalDependencies:
-      '@types/react': 19.3.2
+      '@types/react': 19.3.3
     transitivePeerDependencies:
       - supports-color
 
@@ -3123,7 +3123,7 @@ snapshots:
 
   '@types/parse-path@7.0.3': {}
 
-  '@types/react@19.3.2':
+  '@types/react@19.3.3':
     dependencies:
       csstype: 3.2.3
 
