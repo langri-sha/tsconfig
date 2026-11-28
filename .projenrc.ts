@@ -65,7 +65,24 @@ const project = new Project({
   codeowners: {
     '*': '@langri-sha',
   },
-  dagger: {},
+  dagger: {
+    workspace: {
+      modules: {
+        typescript: {
+          settings: {
+            projects: [
+              '.',
+              'fixtures/base',
+              'fixtures/build',
+              'fixtures/emotion',
+              'fixtures/project',
+              'fixtures/react',
+            ],
+          },
+        },
+      },
+    },
+  },
   editorConfig: {},
   eslint: {},
   githubTemplates: {},
